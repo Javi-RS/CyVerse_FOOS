@@ -30,7 +30,7 @@ image to your local machine by pulling it from the remote repository:
 docker pull javirodsan/foss21_team_f_wed:1.0
 ```
 
-Or you can run it diretly from the remote repository:
+Or you can run it directly from the remote repository:
 
 ```
 docker run -p 8080:8080 javirodsan/foss21_team_f_wed:1.0
