@@ -35,7 +35,12 @@ Or you can run it directly from the remote repository:
 ```
 docker run -p 8080:8080 javirodsan/foss21_team_f_wed:1.0
 ```
-Nota that this command also does a docker pull behind the scenes to download the image with latest tag. 
+Note that this command also does a docker pull behind the scenes to download the image with latest tag. 
+
+##Using the web app
+You should be able to see the Flask application running on http://localhost:8080 or 127.0.0.1:8080
+
+Select image analysis from the drop down menu and upload an image to analyze. Finally, click proess image to start the estimation of yield. Please be patient, the analysis can take a while.
 
 ## Find Us
 
