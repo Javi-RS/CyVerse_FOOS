@@ -33,7 +33,7 @@ docker pull javirodsan/foss21_team_f_wed:1.0
 Or you can run it directly from the remote repository:
 
 ```
-docker run -p 8080:8080 javirodsan/foss21_team_f_wed:1.0
+docker run -ti -p 8080:8080 javirodsan/foss21_team_f_wed:1.0
 ```
 Note that this command also does a docker pull behind the scenes to download the image with latest tag. 
 
