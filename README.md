@@ -37,22 +37,23 @@ docker run -p 8080:8080 javirodsan/foss21_team_f_wed:1.0
 ```
 Note that this command also does a docker pull behind the scenes to download the image with latest tag. 
 
-##Using the web app
+## Using the web app
 You should be able to see the Flask application running on http://localhost:8080 or 127.0.0.1:8080
 
 Select image analysis from the drop down menu and upload an image to analyze. Finally, click proess image to start the estimation of yield. Please be patient, the analysis can take a while.
 
-## Find Us
+____
+# Find Us
 
 * [GitHub](https://github.com/Javi-RS)
 
-## Authors
+# Authors
 
 * **Javier Rodriguez** - *Graduate Research Assistant* - [BSAIL Lab (The University of Georgia)](https://bsail.engr.uga.edu/)
 
 See also the list of [contributors](https://github.com/your/repository/contributors) who 
 participated in this project.
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
